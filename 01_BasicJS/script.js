@@ -1,4 +1,4 @@
-//variables, funtion names, and operators are all case sensitive
+ืนกำ//variables, funtion names, and operators are all case sensitive
 //Statements in ECMAScript are terminated by a semicolon
 //Even semicolon is not required but not recommended to omit the semicolon
 
