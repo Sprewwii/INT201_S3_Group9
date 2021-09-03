@@ -1,11 +1,10 @@
-let number = [];
+let number=[];
+for(let i =0; i<3; i++){
+    number[i] = randomNumber();
+}
 
 function randomNumber(){
     return Math.floor(Math.random() * 100) + 1;
-}
-
-for(let i =0; i<3; i++){
-    number[i] = randomNumber();
 }
 
 console.log(number);
