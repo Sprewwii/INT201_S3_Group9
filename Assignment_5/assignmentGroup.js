@@ -79,7 +79,7 @@ console.log(`Sort Number = ${number2}`); //1,5,10,25,40,100
 //ตัวอย่างที่ 3 เทียบตัวอักษร
 let names = ["Hataiwan", "Kodchakorn", "Athiti", "Kannika", "Supicha"];
 names.sort((name1,name2) => name1-name2);
-console.log(`Sort Name = ${names}`); //Hataiwan,Kodchakorn,Athiti,Kannika,Supicha ไม่เรียงเลย เพราะว่าตัวอักษรไม่สามารถเอามา - เทียบค่ากันได้ปห
+console.log(`Sort Name = ${names}`); //Hataiwan,Kodchakorn,Athiti,Kannika,Supicha ไม่เรียงเลย เพราะว่าตัวอักษรไม่สามารถเอามา - เทียบค่ากันได้
 
 console.log(`\nfind() syntax: Function(Object)`);
 //parameter เป็น function(Object)
