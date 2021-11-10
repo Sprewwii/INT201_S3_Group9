@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+/* ส่วนที่เป็น product ทั้งหมด */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* หัวข้อ Product List */
+h2{
+    font-family: 'Secular One', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(132, 105, 53);
+    text-shadow: 0px 2px 2px rgb(0 0 0 / 2%);
+    line-height: 2.3;
+    box-sizing: none;
+    text-align: center
+}
+
+/* ขนาดรูป */
+.photokanom {
+    height: 270px;
+    width: 270px; 
+    padding: 30px;
+}
+
+/* card แต่ละอัน */
+.products{
+    width: 270px;
+    height: 450px;
+    background:white;
+    
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+
+#products{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* จัดการLogo */
+#logo {
+    max-width:70px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+}
+
+/* จัดการ Home */
+.nav-link {
+    font-family: 'Chonburi', cursive;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-left: -35px;
+}
+
+/* navbar */
+.navbar {
+    background-color: rgba(62, 111, 80, 0.544);
+}
+
+/* body */
+body{
+    background-color: rgb(163, 195, 163);
+    margin-bottom: 30px;  
+}
+
+.btn {
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+    background-color: pink;
+    border: none;
+    color: black;
+}
+
+button:hover, .btn:hover {
+    background-color: rgb(228, 106, 127);
+    color: black;
+    border: none;
+}
+
+/* รูปตะกร้าสินค้า */
+.imgBasket {
+    width: 20px;
+    margin: 4px 5px 4px 0px;
+}
+
+/* ตะกร้าสินค้า */
+#basket{
+    margin-left: 10px;
+}
+
+#search {
+    max-width: 20px;
+    max-height: 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+form {
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    margin-top: 5px;
+    padding: 10px 40px 10px 40px;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    background-color: pink;
+    border-radius: 5px;
+    transition: 0.3s;
+    border: none;
+    color: rgb(43, 43, 43);
+} 
